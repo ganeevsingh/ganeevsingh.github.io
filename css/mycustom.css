@@ -1,9 +1,9 @@
 a .clickable {
-	color: black;
+	color: white;
 }
 
 a .clickable:hover {
-	color: #FF6507;
+	color: yellow;
 }
 
 .navbar {
@@ -24,10 +24,9 @@ h2 {
 .jumbotron {
     margin-bottom: 0px;
 	background-image: url(../images/IMG_5378.jpg);
-    background-position: 0% 25%;
+    background-position: 0% 45%;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
 	text-align: center;
 }
