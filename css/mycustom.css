@@ -1,0 +1,27 @@
+a .clickable {
+	color: black;
+}
+
+a .clickable:hover {
+	color: #FF6507;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+body {
+	background: #3E4649;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+	font-weight:bold;
+}
+
+.jumbotron {
+	background: #FF6507;
+	text-align: center;
+}
