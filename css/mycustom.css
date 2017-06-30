@@ -27,7 +27,7 @@ h2 {
     background-position: 0% 45%;
     background-size: cover;
     background-repeat: no-repeat;
-    text-shadow: black 0.3em 0.3em 0.3em;
+    text-shadow: blue 0.3em 0.3em 0.3em;
 	text-align: center;
 }
 
@@ -39,6 +39,8 @@ h2 {
 .navbar-inverse {
 	background: #2E2F31;
 	border: 0;
+	position: fixed;
+	width: 100%
 }
 .navbar-inverse .navbar-nav li a {
 	color: #f7f7f7;
@@ -58,4 +60,8 @@ h2 {
 
 .glyphicon-large {
 	font-size: 50px;
+}
+
+.copyright {
+	text-align: center;
 }
