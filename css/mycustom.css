@@ -1,3 +1,5 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+html,
 body {
 	background: #FFFFFF;
 	color: black;
@@ -31,7 +33,7 @@ h2 {
 }
 
 .blanket {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     height: 100%;
     width: 100%;
     color: #FFF;
