@@ -14,7 +14,7 @@
 
 
 <body>
-<nav class="navbar navbar-inverse navbar-static-top"> 
+<!--nav class="navbar navbar-inverse navbar-static-top"> 
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-example-1" aria-expanded="false">
@@ -27,64 +27,85 @@
 			</div>
 		<div class="collapse navbar-collapse" id="nav-example-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href='/about'>About Me</a><li>
-				<li><a href='/post'>Posts</a><li>
-				<li><a href='/publications'>Publications</a><li>
+				<li><a href='#about'>About Me</a><li>
+				<li><a href='#post'>Posts</a><li>
+				<li><a href='#publications'>Publications</a><li>
 				<li><a href='/file/CV.pdf'>Resume/CV</a><li>
-				<li><a href='/contact'>Contact</a><li>
+				<li><a href='#contact'>Contact</a><li>
 			</ul>
 		</div>
 	</div>
 </nav>
-<div class="jumbotron">
-	<div class="container" style="height: 600px">
-		<h1>HI, I'M GANEEV SINGH</h1>
-	</div>
-</div>
+
+Style =
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-inverse {
+	background: #2E2F31;
+	border: 0;
+	position: fixed;
+	width: 100%
+}
+.navbar-inverse .navbar-nav li a {
+	color: #f7f7f7;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	background: blue;
+}
+
+-->
+    <div class="main" id="main">
+        <div class="blanket">
+            <div class="container" align="center">
+                 <img class="img-circle" src="images/me1.jpg">
+                 <div>
+                     <h2 class="title" style="display: inline">Ganeev Singh</h2>
+                </div>
+                <h5>Associate Consultant &middot; Entrepreneur &middot; Aspiring Physician</h5>
+            </div>
+        </div>
+    </div>
+
 <div class="container-fluid">
-	<h3> This website is a continuous work in progress as I learn how to code in Summer 2017</h3>
-	<p> Sure I could have made a beautiful WordPress website in minutes, but where is the fun in that? </p>
+	<h3>This website is a continuous work in progress as I learn how to code in Summer 2017</h3>
+	<p>Sure I could have made a beautiful WordPress website in minutes, but where is the fun in that? </p>
 	<br>
 </div>
-<div class="container front-page">
-	<div class="row">
-		<div class="col-md-4">
-			<a href="/about">
-				<div class="clickable">
-					<span class="glyphicon glyphicon-cloud glyphicon-large" aria-hidden="true"></span>
-					<h3>About Me</h3>
-					<p>Learn more about who I am</p>
-				</div>
-			</a>
-		</div>
-		<div class="col-md-4">
-			<a href="/publications">
-				<div class="clickable">
-					<span class="glyphicon glyphicon-pencil glyphicon-large" aria-hidden="true"></span>
-					<h3>Publications</h3>
-					<p>Culmination of co-authored publications</p>
-				</div>
-			</a>
-		</div>
-		<div class="col-md-4">
-			<a href="/post">
-				<div class="clickable">
-					<span class="glyphicon glyphicon-plus glyphicon-large" aria-hidden="true"></span>
-					<h3>Posts</h3>
-					<p>Check out my posts on LinkedIn</p>
-				</div>
-			</a>
-		</div>
+	<div id="about">
+		<div class="container">
+			<h3 class="title">About Me</h3>
+            <br>
+			<p>Hey! I'm Ganeev. For most of my life, I have been fascinated by the field of medicine and my last two years of college allowed me to explore the business sector as well. After graduating with honors from <a href="http://www.ucla.edu/">UCLA</a>, I moved up to San Francisco to work as an Associate Consultant at <a href="http://www.triageconsulting.com/">Triage Consulting Group</a>. Next year, I will be applying to a joint MD/MBA program with a matriculation date of Fall 2019. My overall career goal is to become a physician who runs healthcare and technology entrepreneurship ventures on the side that benefit people of limited means who have nowhere to turn to for help.  I am also interested in higher level hospital management, running multiple hospitals one day and impacting lives in my community and beyond.</p>
 	</div>
-</div>
-<br>
-<div class="copyright">
-	<p> Updated 6.29.17</p>
-	<p> &copy; 2017</p>
-</div>
+	<div id="post">
+		<div class="container">
+			<h3 class="title">Posts</h3>
+            <br>
+			<p> By imparting my knowledge to you through writing, I hope you don't make the same mistakes as I have! </p>
+	</div>
+	<div id="publications">
+		<div class="container">
+			<h3 class="title">Publications</h3>
+            <br>
+			<p> I conducted extensive neuroscience research from November 2014 to June 2017. My research focused mostly on optogenetics and opioids. I have contributed to the two co-authored publications listed below: </p>
+	</div>
+	<div id="contact">
+		<div class="container">
+			<h3 class="title">Contact</h3>
+            <br>
+			<p> Feel free to email me at ganeevs@ucla.edu </p>
+	</div>
+	<br>
+	<div class="copyright">
+		<p> Updated 7.5.17</p>
+		<p> &copy; 2017</p>
+	</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 </body>
 
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 </html>
