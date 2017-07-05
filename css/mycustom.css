@@ -1,3 +1,10 @@
+body {
+	background: #FFFFFF;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+}
+
 a .clickable {
 	color: white;
 }
@@ -6,60 +13,48 @@ a .clickable:hover {
 	color: yellow;
 }
 
-.navbar {
-	margin-bottom: 0;
-}
-
-body {
-	background: #3E4649;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-}
-
 h1,
 h2 {
 	font-weight:bold;
 }
 
-.jumbotron {
-    margin-bottom: 0px;
-	background-image: url(../images/IMG_5378.jpg);
-    background-position: 0% 45%;
+.img-circle {
+    border-radius: 50%;
+	width: 25%;
+    height: 25%;
+	margin-bottom: 20px
+}
+
+.title {
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+.blanket {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    color: #FFF;
+}
+
+#main > .blanket {
+    padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#main {
+    background: url(../images/bg.jpg);
+    background-position: center 40%;
     background-size: cover;
-    background-repeat: no-repeat;
-    text-shadow: blue 0.3em 0.3em 0.3em;
-	text-align: center;
-}
-
-.jumbotron h1 {
-	font-size: 75px;
-	color: yellow;
-}
-
-.navbar-inverse {
-	background: #2E2F31;
-	border: 0;
-	position: fixed;
-	width: 100%
-}
-.navbar-inverse .navbar-nav li a {
-	color: #f7f7f7;
-	font-size: 16px;
-}
-.navbar-inverse .navbar-nav li a:hover {
-	background: blue;
+    background-attachment: fixed;
 }
 
 .front-page {
-	text-align:center;
+	text-align: center;
 }
 
 .front-page p {
 	margin-bottom: 40px;
-}
-
-.glyphicon-large {
-	font-size: 50px;
 }
 
 .copyright {
