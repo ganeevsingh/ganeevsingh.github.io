@@ -29,6 +29,10 @@ h2 {
 	margin-bottom: 20px
 }
 
+.jumbotron {
+	margin-bottom: 10px;
+}
+	
 .title {
     font-family: 'Lato';
     font-weight: bold;
@@ -42,8 +46,8 @@ h2 {
 }
 
 #main > .blanket {
-    padding-bottom: 50px;
-	padding-top: 50px;
+    padding-bottom: 60px;
+	padding-top: 60px;
 }
 
 #main {
