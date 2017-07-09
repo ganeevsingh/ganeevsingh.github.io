@@ -101,25 +101,39 @@ Style =
             <div class="container" align="center">
                 <h2 class="wow fadeInUp white-text title upper">Get <span class="wow fadeInUp white-text title upper" data-wow-delay="250ms">In</span> <span class="wow fadeInUp white-text title upper" data-wow-delay="500ms">Touch</span></h2>
                 <hr class="wow zoomIn" data-wow-delay="750ms" style="width: 100px;border: 2px solid #2D2D2D">
-                <h5>Shoot me an email at <u><a style="color: #FFF" href="mailto:ganeevs@ucla.edu">ganeevs@ucla.edu</a></u>!<!--or use the form below!--></h5>
+                <h5>Shoot me a message using the form below!</h5>
                 <br>
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<form role="form" id="contactForm" data-toggle="validator" class="shake">
+							<div class="row">
+								<div class="form-group col-sm-6">
+									<label for="name" class="h4">Name</label>
+									<input type="text" class="form-control" id="name" placeholder="Enter name" required data-error="NEW ERROR MESSAGE">
+									<div class="help-block with-errors"></div>
+								</div>
+								<div class="form-group col-sm-6">
+										<label for="email" class="h4">Email</label>
+										<input type="email" class="form-control" id="email" placeholder="Enter email" required>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="message" class="h4 ">Message</label>
+								<textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+							<button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+							<div id="msgSubmit" class="h3 text-center hidden"></div>
+							<div class="clearfix"></div>
+						</form>
+					</div>
+				</div>
 				<div style="width: 100%" align="center">
                     <h1><a target="_blank" href="http://www.linkedin.com/in/ganeevsingh"><i class="fa fa-linkedin wow fadeInUp white-text"></i></a> <a target="_blank" href="http://www.facebook.com/singh.ganeev"><i class="fa fa-facebook wow fadeInUp white-text" data-wow-delay="500ms"></i></a> <a target="_blank" href="http://www.instagram.com/ganeevil"><i class="fa fa-instagram wow fadeInUp white-text"></i></a></h1>
                 </div>
                 <br>
 				<a target="_blank" href="/file/CV.pdf" style="color: #FFF"><h6>View my resume/CV <i class="fa fa-angle-right"></i></h6></a>
-                <script>
-                ! function(d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0],
-                        p = 'https';
-                    if (!d.getElementById(id)) {
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = p + '://platform.twitter.com/widgets.js';
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }
-                }(document, 'script', 'twitter-wjs');
-                </script>
             </div>
         </div>
 	<div class="copyright">
@@ -128,7 +142,7 @@ Style =
 	</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 
 </html>
