@@ -22,6 +22,10 @@ h2 {
 	font-weight:bold;
 }
 
+.temp {
+	text-align: center;
+}
+
 .img-circle {
     border-radius: 50%;
 	width: 25%;
