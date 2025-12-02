@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name | Publications</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <div class="site-title"><a href="index.html">Your Name</a></div>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="publications.html" class="active">Publications</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Publications &amp; Scholarly Work</h2>
+      <p>
+        Below is a selection of peer-reviewed manuscripts, abstracts, and presentations. Where
+        available, links are provided to the full text or conference materials.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Peer-Reviewed Publications</h2>
+      <ul class="list">
+        <li><strong>Your Name</strong>, Coauthors. “Title of Article.” <em>Journal Name</em>. Year;Volume(Issue):Pages. [Link]</li>
+        <li><strong>Your Name</strong>, Coauthors. “Title of Article.” <em>Journal Name</em>. Year;Volume(Issue):Pages. [Link]</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Abstracts &amp; Posters</h2>
+      <ul class="list">
+        <li><strong>Your Name</strong>, Coauthors. “Title of Abstract.” Conference Name; Location; Year. Poster presentation.</li>
+        <li><strong>Your Name</strong>, Coauthors. “Title of Abstract.” Conference Name; Location; Year. Oral presentation.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>In Progress / In Preparation</h2>
+      <ul class="list">
+        <li>Project on [topic], focusing on [brief description].</li>
+        <li>Manuscript in preparation related to [topic].</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    &copy; <span id="year"></span> Your Name. All rights reserved.
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
